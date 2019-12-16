@@ -1,6 +1,7 @@
+
 <template>
   <div class="menu-wrap">
-    <div class="btn-wrap">
+     <div class="btn-wrap">
       <div class="title-1">
         <div class="img">
           <img src="../assets/image/menu/user.png" height="100%" alt />
@@ -8,7 +9,7 @@
         <div class="online state" v-show="isOnlie" @click="isOnlie = !isOnlie">
           在线
         </div>
-        <div
+         <div
           class="un-online state"
           v-show="!isOnlie"
           @click="isOnlie = !isOnlie"

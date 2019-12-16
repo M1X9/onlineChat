@@ -1,10 +1,12 @@
+
 <template>
+<!-- 客户页面 -->
   <div class="screen-wrap">
     <div class="screen-title">客户赛选</div>
     <div class="v-form-wrap">
       <div class="from-item-wrap">
         <div class="from-title">用户名</div>
-        <el-input class="form-item-input" v-model="sereen.username" placeholder="请输入内容" size="mini"></el-input>
+        <el-input class="form-item-input" v-model="sereen.username" placeholder="请输入内容把" size="mini"></el-input>
       </div>
     </div>
     <div class="from-item-wrap">
@@ -106,7 +108,7 @@
 export default {
   data () {
     return {
-      options: [],
+      options: [],//数组
       sereen: {
         username: "", //用户名
         phone: "", //手机号

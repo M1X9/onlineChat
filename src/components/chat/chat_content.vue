@@ -104,6 +104,8 @@
   </div>
 </template>
 
+
+
 <script>
 export default {
   data() {
@@ -113,6 +115,7 @@ export default {
       textarea: "",
       news: [
         {
+          //
           id: 1,
           info: 1,
           username: "MLXGzzz1号",
@@ -123,7 +126,7 @@ export default {
         {
           id: 2,
           info: 2,
-          username: "MLXGzzz2号",
+          username: "MLXGzzz3号",
           desc: "是啊",
           headImgUrl: require("../../assets/image/user/art2.jpg"),
           time: "2019-12-15"
